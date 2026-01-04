@@ -9,10 +9,11 @@
 
             while ( 0 != 1)
             {
-                menu.HasierakoMenua();
+                menu.HasierakoMenua(); // Hemen deitzen dut hasierako menu-ra
             }
             
         
         }
     }
+
 }
