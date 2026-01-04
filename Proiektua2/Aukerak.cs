@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 
 namespace TxokoArgi
 {
-    public static class Aukerak
+    public static class Aukerak // Hemen aukera guztiak sartuko ditut
     {
         public static string AukeratuEdaria()
         {
@@ -18,7 +18,7 @@ namespace TxokoArgi
             Console.WriteLine("9) Tea");
             Console.WriteLine("10) Ura gasarekin");
             
-            Console.Write("Aukeratu> ");
+            Console.Write("Aukeratu> "); // Jartzen dut Console.Write, bestela salto de linea automatikoa egiten duelako eta itxusi geratzen da.
             string? aukeratuEdaria = Console.ReadLine();
             switch (aukeratuEdaria)
             {
@@ -160,4 +160,5 @@ namespace TxokoArgi
 
 
     }
+
 }
