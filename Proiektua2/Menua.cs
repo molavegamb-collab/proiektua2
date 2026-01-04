@@ -1,7 +1,7 @@
 using System.Runtime.CompilerServices;
 namespace TxokoArgi
 {
-    public class Menua
+    public class Menua    // Hemen egongo da gehiena
     {
         private List<Eskaera> eskaerak;
 
@@ -27,7 +27,7 @@ namespace TxokoArgi
             Console.WriteLine("3) Atera");
             Console.WriteLine("4) Azpi menua (kudeaketa)");
 
-            Console.Write("Erantzuna> ");
+            Console.Write("Erantzuna> "); // BErriz txukunago gelditzeko
 
             string? mezua = Console.ReadLine();
             int erantzuna = mezua != null ? int.Parse(mezua) : 0;
@@ -58,7 +58,7 @@ namespace TxokoArgi
 
         }
 
-        private void EskaerakSortu()
+        private void EskaerakSortu() // Funtizoetan banatzen dut
         {
             Console.Clear();
             Console.WriteLine("[+] Sortu eskaera berri bat:");
@@ -399,6 +399,7 @@ namespace TxokoArgi
     } 
 }    
             
+
 
 
 
